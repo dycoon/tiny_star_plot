@@ -8,10 +8,16 @@ Public domain
 What is it
 ----
 This program render stars on web browser.
-javascript and HTML5.
+written in javascript and HTML5.
+
+Target browser
+----
 PC: Chrome, Firefox, Internet Explorer 9 or later.
+
 Smartphone: iOS 5(or later), Android browser, Chrome for Android.
 
+About Star Catalogue
+----
 Star data is converted from Hipparcos Catalogue.
 http://www.rssd.esa.int/index.php?page=Overview&project=HIPPARCOS
 
