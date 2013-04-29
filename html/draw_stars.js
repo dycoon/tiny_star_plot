@@ -1,7 +1,7 @@
 // Tiny Star Plot
 // license : public domain
-// witten by Kuroda Dycoon 
-//   https://github.com/dycoon
+// witten by Kuroda Dycoon
+// https://github.com/dycoon/tiny_star_plot
 
 var viewSize = 640;
 var starImage = null;
