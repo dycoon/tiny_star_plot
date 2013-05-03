@@ -1,14 +1,18 @@
 Tiny Star Plot
 ======================
 
-License
-----
-Public domain
-
-What is it
+What is this
 ----
 This program render stars on web browser.
 written in javascript and HTML5.
+
+Demo
+----
+http://www.rmake.net/dycoon/files/tiny_star_plot/
+
+License
+----
+Public domain
 
 Target browser
 ----
