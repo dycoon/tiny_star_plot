@@ -8,7 +8,7 @@ written in javascript and HTML5.
 
 Demo
 ----
-http://www.rmake.net/dycoon/files/tiny_star_plot/
+http://dycoon.github.io/experimentals/tiny_star_plot/index.html
 
 License
 ----
