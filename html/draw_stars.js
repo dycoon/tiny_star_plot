@@ -4,6 +4,7 @@
 // https://github.com/dycoon/tiny_star_plot
 
 var viewSize = 640;
+var screenViewSize = 0;
 var starImage = null;
 var view = null;
 var canvas = null;
@@ -171,8 +172,10 @@ var init = function(){
     h = window.innerHeight - 80;
     vw = Math.min(window.innerWidth, h)
     
-    canvas.style.width = Math.floor(vw) + "px";
-    canvas.style.height = Math.floor(vw) + "px";
+    screenViewSize = Math.floor(vw);
+    
+    canvas.style.width = screenViewSize + "px";
+    canvas.style.height = screenViewSize + "px";
     
     context = canvas.getContext("2d");
     
@@ -396,7 +399,7 @@ var touchDown = function(event) {
 
 var touchMove = function(event) {
     if(touching){
-        var sc = 0.01;
+        var sc = 1.0 / screenViewSize;
         if(event.changedTouches && event.changedTouches.length > 0){
             rx += (ox - event.changedTouches[0].pageX) * sc;
             ry += (oy - event.changedTouches[0].pageY) * sc;
